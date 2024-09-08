@@ -16,3 +16,15 @@ function basicOp(operation, value1, value2){
   }
   }
 console.log(basicOp('/', 49, 7))  
+
+
+// another solution
+function basicOp(o, a, b){
+    return eval(a+o+b)
+}
+console.log(basicOp('/', 49, 7))  
+
+
+
+
+
