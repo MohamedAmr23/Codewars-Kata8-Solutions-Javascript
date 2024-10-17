@@ -11,6 +11,7 @@
 //   }
 
 //   console.log(xor(false, false))
+
 // anohter solution
 function xor(a, b) {
     return a === b ? false : true;
